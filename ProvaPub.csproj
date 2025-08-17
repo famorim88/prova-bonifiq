@@ -7,6 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="ProvaPub.Tests\**" />
+    <Content Remove="ProvaPub.Tests\**" />
+    <EmbeddedResource Remove="ProvaPub.Tests\**" />
+    <None Remove="ProvaPub.Tests\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Bogus" Version="34.0.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.4">
